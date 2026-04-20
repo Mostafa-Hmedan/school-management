@@ -126,7 +126,7 @@ schoole/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/school-management.git
+git clone https://github.com/Mostafa-Hmedan/school-management.git
 cd school-management/Back
 ```
 
@@ -266,7 +266,7 @@ Key relationships:
 ## 👤 Author
 
 **Mostafa Al-Hmedan**  
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+[GitHub](https://github.com/Mostafa-Hmedan) · [LinkedIn](https://linkedin.com/in/mostafa-al-hmedan)
 
 ---
 
