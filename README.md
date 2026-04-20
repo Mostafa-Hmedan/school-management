@@ -6,7 +6,12 @@ A full-stack school management system built with **ASP.NET Core 9** and **Next.j
 
 ## 📸 Screenshots
 
-> _Add screenshots here after deploying_
+![Screenshot 1](screenshots/1.png)
+![Screenshot 2](screenshots/2.png)
+![Screenshot 3](screenshots/3.png)
+![Screenshot 4](screenshots/4.png)
+![Screenshot 5](screenshots/5.png)
+![Screenshot 6](screenshots/6.png)
 
 ---
 
