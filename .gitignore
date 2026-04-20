@@ -1,0 +1,39 @@
+# ── .NET / ASP.NET Core ──────────────────────────────────
+Back/bin/
+Back/obj/
+Back/*.user
+Back/.vs/
+Back/appsettings.Development.json
+
+# لا ترفع الـ secrets
+Back/appsettings.json
+Back/appsettings.Production.json
+
+# ── Next.js ──────────────────────────────────────────────
+front/.next/
+front/node_modules/
+front/.env.local
+front/.env.production
+front/.env*.local
+front/out/
+front/build/
+front/.vercel/
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────
+.vs/
+.vscode/settings.json
+*.suo
+*.user
+.idea/
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Images uploaded by users (لا ترفعها) ─────────────────
+Back/wwwroot/uploads/

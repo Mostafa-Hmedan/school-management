@@ -1,0 +1,33 @@
+@URL = https://localhost:7045
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5YzEyZWJjZC0yNzgzLTQxMjQtODY0Zi1hY2M3ODkyYzI2ZDMiLCJlbWFpbCI6ImFkbWluQHNjaG9vbC5jb20iLCJmYW1pbHlfbmFtZSI6IlNjaG9vbCIsImdpdmVuX25hbWUiOiJBZG1pbiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MzYwNjI2NCwiZXhwIjoxNzczNjA5ODY0LCJpYXQiOjE3NzM2MDYyNjQsImlzcyI6IkJhY2tFbmRSRU0iLCJhdWQiOiJCYWNrRW5kUkVNLUNsaWVudHMifQ.yEDH9a5CICnTrR9OGHuOuunkhO668U474ElOgbBa_RY
+
+# ═══════════════════════════════════════
+#              AUTH
+# ═══════════════════════════════════════
+
+### Login
+Post {{URL}}/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@school.com",
+    "password": "Admin@12345"
+}
+
+### Logout
+Post {{URL}}/api/v1/auth/logout
+Authorization: Bearer {{token}}
+
+### Get Current User
+GET {{URL}}/api/v1/auth/me
+Authorization: Bearer {{token}}
+
+# ═══════════════════════════════════════
+#              STUDENTS
+# ═══════════════════════════════════════
+
+### Get All Students
+POST  {{URL}}/api/v1/openapi
+ 
+
+ 
